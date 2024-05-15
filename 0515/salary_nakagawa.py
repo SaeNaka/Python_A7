@@ -17,4 +17,5 @@ tax = Decimal(str(tax)).quantize(Decimal("0"),rounding = ROUND_HALF_UP)
 allowance = salary - tax
 
 #実行
-print("支給額:" + str(allowance) + "、税額:" + str(tax), end = '')
+#print("支給額:" + str(allowance) + "、税額:" + str(tax), end = '')
+print(f'支給額:{allowance}、税額:{tax}', end = '')
