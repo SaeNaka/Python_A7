@@ -1,4 +1,5 @@
 # 値下げした価格を出力
+
 import sys
 args = sys.argv
 
