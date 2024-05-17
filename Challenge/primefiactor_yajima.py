@@ -8,7 +8,7 @@ target = num
 results = []
 
 for i in range(2, num+1):
-    # i(=2,3,・・・num-1)で割り切れたらリストに追加
+    # i(=2,3,・・・num)で割り切れたらリストに追加
     while target % i == 0:
         results.append(i)
         target /= i
