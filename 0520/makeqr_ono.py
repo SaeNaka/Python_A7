@@ -8,6 +8,6 @@ import qrcode
 img = qrcode.make(url)
 
 import os
-path = os.path.join("..", "0520", file_name + ".png")
+path = os.path.join("..", "files", file_name)
 
 img.save(path)
