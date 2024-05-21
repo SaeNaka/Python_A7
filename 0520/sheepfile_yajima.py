@@ -8,5 +8,5 @@ file_name = "./files/sheep.txt" # ファイルのパス
 
 with open(file_name, mode="w", encoding="utf-8") as f:
     for n in range(1, num+1):
-        f.write(str(n)) # 出力を書き込み
+        f.write(f"ひつじが{n}匹") # 出力を書き込み
         f.write("\n") # 改行
